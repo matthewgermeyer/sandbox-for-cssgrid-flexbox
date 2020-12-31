@@ -1,0 +1,131 @@
+
+* {
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.jumbotron{
+  display: flex;
+  
+   
+   
+    
+   /* background-color: rgba(126, 17, 17, 0.7); */
+}
+
+
+.jumbotron-item{
+    border: 3px solid darkslategrey; 
+    color: whitesmoke;
+    background-color:lightskyblue;
+    margin: 1px;
+    padding: 1px;
+}
+
+.good{
+    flex: auto;
+    color: greenyellow; 
+    background-color: darkgreen;
+
+
+}
+
+.bad  {
+    flex: auto;
+    color: whitesmoke;
+    background-color: salmon;
+
+}
+
+.recordNote {
+    flex: auto;
+    color: black; 
+
+}
+
+.jumbotron-image{
+    width: 330px;
+    margin: 12px;
+}
+
+/* Socials */
+.marketing{
+    padding: 1vh;
+    background-color:green;
+}
+
+
+.marketing-title {
+    background-color: grey;
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+/* Sketchbook */
+.sketch {
+    height: 100vh;
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: slategray;
+    border: 1px solid whitesmoke;
+}
+
+
+
+/* Grid Items */
+.grid-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.grid-item {
+
+    display: flex;
+    min-height: 145px;
+    max-width: 100px;
+    padding:1px;
+    margin: 3px;
+    background-color: lightcoral;
+    border: 3px solid black;
+   
+    
+   
+}
+
+.grid-item h6 {
+    /* border: 2px solid black; */
+    font-weight: 900;
+    text-shadow: rgb(48, 86, 156, 0.2);
+    font-size: 1rem;
+   
+}
+
+.grid-item p {
+   font-size: 1rem;
+    font-weight: 100;
+    
+}
+
+
+/* footer */
+.footer {
+text-align: center;
+
+font-weight: 200;
+font-size: 3vh;
+background: lightskyblue; 
+border: 2px solid whitesmoke; 
+color:whitesmoke;
+}
